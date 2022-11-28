@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    font-family: sans-serif;
+    background: url("https://www.deniseanne.com/s/north-pole-map-desktop-wallpaper-5120x2880.jpg");
+    background-size: cover;
+}
+
+h2 {
+   text-transform: uppercase;
+   letter-spacing: 4px;
+   font-size: 24px;
+   text-align: center;
+   color: #fff;
+}
+
+.clock {
+    display: flex;
+}
+
+.clock div {
+    margin: 5px;
+    position: relative;
+}
+
+.clock span {
+    width: 120px;
+    height: 100px;
+    background-color: slateblue;
+    opacity: 80%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+}
+
+.clock .text {
+    height: 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: darkblue;
+    opacity: 0.8;
+}
+
+.clock #ampm {
+    position: absolute;
+    bottom: 0;
+    width: 70px;
+    height: 40px;
+    font-size: 24px;
+    background: green;
+}
